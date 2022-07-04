@@ -1,0 +1,841 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------Header section---------*/
+.container1 {
+    width: 100%;
+    background-color: #1F1F30;
+    position: fixed;
+    z-index: 10;
+}
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+/*------Header image------*/
+.headerimg {
+    width: 10%;
+    float: left;
+}
+
+.headerimg img {
+    vertical-align: middle;
+}
+
+.headerimg p {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    padding-left: 5px;
+}
+
+/*-------Header content--------*/
+.headercnt {
+    width: 55%;
+    float: left;
+}
+
+.headercnt p {
+    font-size: 12px;
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+}
+
+.headercnt a {
+    font-size: 12px;
+    color: white;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+/*--------Header Button------*/
+.headerbtn {
+    width: 35%;
+    float: left;
+    padding-left: 40px;
+}
+
+.headerbtn span a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #41415A;
+    color: white;
+    margin: 5px;
+}
+
+.headerbtn span a img {
+    height: 12px;
+    vertical-align: middle;
+}
+
+.headerbtn>a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+}
+
+.headerbtn>a img {
+    height: 10px;
+}
+
+/*---------container 3---------*/
+.container3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container4 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.mercury {
+    width: 15%;
+    float: left;
+    box-shadow: inset -70px 0 60px -30px rgba(216, 216, 233, .25);
+    height: 100vw;
+}
+
+.mercury ul a {
+    text-decoration: none;
+
+}
+
+.mercury ul a li {
+    font-size: 12px;
+    color: rgb(0, 0, 0, 0.5);
+    padding: 15px 0px;
+    list-style: none;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.mercury ul a li p {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.mercury ul a li:hover {
+    box-shadow: inset -60px 0 60px -15px rgba(216, 216, 233, .25);
+    color: rgb(0, 0, 0, 0.75);
+   
+}
+.mercury ul a li:active{
+    border: 2px solid #6178FA;
+    border-radius: 3px;
+}
+.mercury ul a li img {
+    height: 15px;
+    vertical-align: middle;
+}
+
+/*-----Main section-------*/
+.mainsec {
+    width: 85%;
+    float: left;
+}
+
+/*----------Part 1---------*/
+.part1 {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.search {
+    width: 80%;
+    float: left;
+}
+
+.search img {
+    vertical-align: middle;
+    height: 20px;
+}
+
+.search input {
+    font-size: 12px;
+    border: none;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    color: #CACAD4;
+    letter-spacing: 1px;
+}
+
+.movebtn {
+    width: 20%;
+    float: left;
+}
+
+.movebtn a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 15px;
+    background-color: #6178FA;
+}
+
+.movebtn a img {
+    height: 15px;
+    vertical-align: middle;
+}
+
+/*---------Part 2-----------*/
+.part2 {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.mercurydemo {
+    width: 38%;
+    margin: 0 auto;
+    float: left;
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: 0 22px 25px 0 rgba(228, 228, 234, .22), 0 9px 23px 0 rgba(228, 228, 234, .5);
+}
+
+.mercurydemo:hover {
+    box-shadow: 0 22px 32px 0 rgba(228, 228, 234, .56), 0 9px 28px 0 rgba(228, 228, 234, .64);
+}
+
+.mercurysec>h5 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #AFAFBE;
+}
+
+.mercurysec h2 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-top:30px;
+}
+
+.mercurysec>p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    line-height: 1.5;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    ;
+}
+
+/*------Boxes------*/
+.boxs {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    padding: 10px 0px;
+    position: relative;
+}
+
+.box p {
+    width: 30%;
+    float: left;
+    color: #AFAFBE;
+    font-size: 14px;
+}
+
+.box h5 {
+    width: 40%;
+    float: left;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.box h6 {
+    width: 30%;
+    float: left;
+    font-size: 14px;
+    color: #AFAFBE;
+    font-weight: 400;
+}
+
+.box h6 span {
+    font-size: 8px;
+    position: absolute;
+    top: 12px;
+}
+#box1 p{
+    font-style: italic;
+}
+#box1 h6 {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    color: #AFAFBE;
+}
+
+#box2 h6 {
+    color: #178E81;
+}
+
+#box3 h6 {
+    color: black;
+}
+
+/*-------View more button------*/
+.mercurysec a {
+    text-decoration: none;
+    float: right;
+    font-size: 14px;
+    color: #566fee;
+    padding: 15px 0px;
+}
+
+.mercurysec a img {
+    height: 12px;
+    vertical-align: middle;
+}
+
+/*--------mercury balance------*/
+.mercurybalance {
+    width: 55%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 15px;
+    box-shadow: 0 22px 25px 0 rgba(228, 228, 234, .22), 0 9px 23px 0 rgba(228, 228, 234, .5);
+}
+.mercurybalance:hover {
+    box-shadow: 0 22px 32px 0 rgba(228, 228, 234, .56), 0 9px 28px 0 rgba(228, 228, 234, .64);
+}
+
+.mercurybalance1 p {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #AFAFBE;
+    font-weight: 700;
+    padding: 50px 0px 25px 0px;
+}
+
+.mercurybalance1 h4 {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.mercurybalance1 span {
+    font-size: 12px;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+.mercurybalance1 h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #AFAFBE;
+    padding-top: 10px;
+}
+
+/*--------Part 3---------*/
+.part3 {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.part3 a {
+    text-decoration: none;
+    float: right;
+    font-size: 14px;
+    color: #566fee;
+    padding: 15px 0px;
+}
+
+.part3 a img {
+    height: 12px;
+    vertical-align: middle;
+
+}
+
+.moneyout {
+    width: 50%;
+    float: left;
+    margin: 50px 0px;
+}
+
+.moneyout1:hover {
+    box-shadow: 0 22px 32px 0 rgba(228, 228, 234, .56), 0 9px 28px 0 rgba(228, 228, 234, .64);
+}
+
+.moneyout1 {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 22px 25px 0 rgba(228, 228, 234, .22), 0 9px 23px 0 rgba(228, 228, 234, .5);
+}
+
+.moneyout2 {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.moneyout2 h5 {
+    font-size: 12px;
+    color: #AFAFBE;
+    letter-spacing: 2px;
+}
+
+.moneyout2 h4 {
+    display: inline-block;
+    font-size: 38px;
+    font-weight: 500;
+    padding: 25px 0px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.moneyout2 span {
+    font-size: 18px;
+    vertical-align: top;
+    position: relative;
+    top: 32px;
+}
+
+.moneyout2 p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+/*-----------Jordi part--------*/
+.jordi {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.jordi1 {
+    width: 60%;
+    float: left;
+}
+
+.jordi1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #FF77B4;
+}
+
+.jordi2 {
+    width: 27%;
+    float: left;
+}
+
+.jordi2 hr {
+    margin-top: .5px;
+    border: 1.5px dashed #AFAFBE;
+}
+
+.jordi3 {
+    width: 13%;
+    float: left;
+}
+
+.jordi3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*-----Gusto part------*/
+.gusto {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.gusto1 {
+    width: 58%;
+    float: left;
+}
+
+.gusto1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #FF77B4;
+}
+
+.gusto2 {
+    width: 27%;
+    float: left;
+}
+
+.gusto2 hr {
+    margin-top: 1px;
+    border: 1.5px dashed #AFAFBE;
+}
+
+.gusto3 {
+    width: 15%;
+    float: left;
+}
+
+.gusto3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*-------Other part-------*/
+.other {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.other1 {
+    width: 50%;
+    float: left;
+}
+
+.other1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #FF77B4;
+}
+
+.other2 {
+    width: 35%;
+    float: left;
+}
+
+.other2 hr {
+    margin-top: .5px;
+    border: 1px dashed #AFAFBE;
+}
+
+.other3 {
+    width: 15%;
+    float: left;
+}
+
+.other3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*---------Miligram part--------*/
+.mili {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.mili1 {
+    width: 40%;
+    float: left;
+}
+
+.mili1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #FF77B4;
+}
+
+.mili2 {
+    width: 45%;
+    float: left;
+}
+
+.mili2 hr {
+    margin-top: 1px;
+    border: 1.5px dashed #AFAFBE;
+}
+
+.mili3 {
+    width: 15%;
+    float: left;
+}
+
+.mili3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*---------------Mony in last 30 day sec-------------*/
+.moneyin {
+    width: 50%;
+    float: left;
+    margin: 50px 0px;
+}
+
+.moneyin1:hover {
+    box-shadow: 0 22px 32px 0 rgba(228, 228, 234, .56), 0 9px 28px 0 rgba(228, 228, 234, .64);
+}
+
+.moneyin1 {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 22px 25px 0 rgba(228, 228, 234, .22), 0 9px 23px 0 rgba(228, 228, 234, .5);
+}
+
+.moneyin2 {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.moneyin2 h5 {
+    font-size: 12px;
+    color: #AFAFBE;
+    letter-spacing: 2px;
+}
+
+.moneyin2 h4 {
+    display: inline-block;
+    font-size: 38px;
+    font-weight: 500;
+    padding: 25px 0px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.moneyin2 span {
+    font-size: 18px;
+    vertical-align: top;
+    position: relative;
+    top: 32px;
+}
+
+.moneyin2 p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+/*------Genpro part-------*/
+.gen {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.gen1 {
+    width: 70%;
+    float: left;
+}
+
+.gen1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #6379FD;
+}
+
+.gen2 {
+    width: 15%;
+    float: left;
+}
+
+.gen2 hr {
+    margin-top: .5px;
+    border: 1.5px dashed #AFAFBE;
+}
+
+.gen3 {
+    width: 15%;
+    float: left;
+}
+
+.gen3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*---------Miligram part-------*/
+.miligram {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.miligram1 {
+    width: 15%;
+    float: left;
+}
+
+.miligram1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #6379FD;
+}
+
+.miligram2 {
+    width: 70%;
+    float: left;
+}
+
+.miligram2 hr {
+    margin-top: 1px;
+    border: 1.5px dashed #AFAFBE;
+}
+
+.miligram3 {
+    width: 15%;
+    float: left;
+}
+
+.miligram3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*-----------Others part-----------*/
+.others {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.others1 {
+    width: 12%;
+    float: left;
+}
+
+.others1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #6379FD;
+}
+
+.others2 {
+    width: 73%;
+    float: left;
+}
+
+.others2 hr {
+    margin-top: .5px;
+    border: 1.5px dashed #AFAFBE;
+}
+
+.others3 {
+    width: 15%;
+    float: left;
+}
+
+.others3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*-------------Orange inc part-------------*/
+.inc {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.inc1 {
+    width: 10%;
+    float: left;
+}
+
+.inc1 hr {
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #6379FD;
+}
+
+.inc2 {
+    width: 75%;
+    float: left;
+}
+
+.inc2 hr {
+    margin-top: 1px;
+    border: 1.5px dashed #AFAFBE;
+}
+
+.inc3 {
+    width: 15%;
+    float: left;
+}
+
+.inc3 p {
+    margin-top: -8px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*--------Wave Graph part--------*/
+.styles__label_pRv0r {
+    fill: #9d9db0;
+    y: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+
+    box-sizing: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.styles__tick-line_oRws0 {
+    stroke: rgba(79,103,237,.24);
+    stroke-width: 1px;
+    stroke-dasharray: 5 5;
+  }
+
+  .styles__line_XjrBh {
+    stroke-width: 1px;
+    fill: none;
+  }
+  .mercurybalance1 svg{
+      width: 100%;
+      height: 223.5px;
+  }
+  element {
+    stop-color: rgba(99, 121, 253, 0.4);
+    stop-opacity: 1;
+  }
+  element {
+    stop-color: rgba(215, 190, 255, 0.2);
+    stop-opacity: 1;
+  }  
+  .styles__graph-wrapper_tSG2q {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-top: 8px;
+  }
